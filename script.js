@@ -596,8 +596,7 @@ function checkActivityRecommendations(currentData, forecastData) {
                 });
             }
         }
-    }
-    
+
     if (activities.length > 0) {
         activities.forEach(activity => {
             const activityDiv = document.createElement('div');
